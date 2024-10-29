@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+    <img src="images/logo.png" alt="Logo" class="logo">
+    <nav class="dnav desktop-nav">
+        <ul class="nav-list">
+            <li class="dnav-item"><a href="#hero">Home</a></li>
+            <li class="dnav-item"><a href="#services">Services</a></li>
+            <li class="dnav-item"><a href="#industries">Industries</a></li>
+            <li class="dnav-item"><a href="#about-us">About</a></li>
+            <li class="dnav-item"><a href="#case-study">Case Study</a></li>
+            <li class="dnav-item"><a href="#contact-us">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="mobile-menu"> 
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav class="nav mobile-nav">
+            <button class="close-btn" onclick="toggleMenu()">X</button>
+            <ul class="mobile-list show">
+                <li class="nav-item"><a href="#hero">Home</a></li>
+                <li class="nav-item"><a href="#services">Services</a></li>
+                <li class="nav-item"><a href="#industries">Industries</a></li>
+                <li class="nav-item"><a href="#about-us">About</a></li>
+                <li class="nav-item"><a href="#case-study">Case Study</a></li>
+                <li class="nav-item"><a href="#contact-us">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <main>
+    <section id="hero" class="hero">
+        <div class="top-images">
+            <div class="top-left">
+                <img src="images/table and books.png" alt="table and books" class="table-books" width="385.26" height="222">
+            </div>
+            <div class="top-right">
+                <img src="images/code 2.png" alt="code 2" class="code2" width="278.89" height="210.61">
+                <img src="images/settings 2.png" alt="settings 2" class="settings2" width="166.92" height="160.7" class="settings2">
+            </div>
+        </div>
+        <h1 class="main-header">We are a software consultancy <br> firm, to support your journey</h1>
+        <div class="down-images">
+            <div class="down-left">
+                <div class="inline">
+                    <img src="images/settings 1.png" alt="settings1"  class="settings1" width="70.92" height="70.7">
+                    <img src="images/motion.png" alt="motion" class="motion-img" width="684.92" height="255.7">
+                </div>
+                <button class="hero-btn btn">Get in touch</button>
+            </div>
+            <img src="images/copies.png" alt="copies" class="copies" width="191.92" height="219.7">
+        </div>
+    </section>        
+    <section id="services" class="services">
+        <h2 class="lazy-fade" data-text="Services">Services</h2>
+        <p class="nice-paragraph">At BIGGSS we specialize in delivering tailored software solutions that drive efficiency, 
+            enhance productivity, and support your business goals. Our team of experienced developers, 
+            project managers, and UX/UI designers work collaboratively with you to create software 
+            that fits your unique needs.
+        </p>
+        <div class="services-card">
+            <div class="services-card ai">
+                <img src="images/Ai.png" alt="ai development">
+                <h3>Ai  <br>Development</br></h3>
+            </div>
+            <div class="services-card app-dev">
+                <img src="images/Application.png" alt="application development">
+                <h3>Application <br>Development</br></h3>
+            </div>
+            <div class="services-card innovation">
+                <img src="images/Innovation.png" alt="innovation hub">
+                <h3>Innovation  <br>Hub</br></h3>
+            </div>
+        </div>
+        <button class="btn middle">Get in touch</button>
+    </section>
+    <section id="industries" class="industries">
+        <div class="industries-title">
+            <h4 class="industries-subtitle">
+                We carefully select the technologies we work with, 
+                engage early, and develop a deep understanding 
+                to deliver the best solutions.
+            </h4>
+            <h2 class="lazy-fade" data-text="Industries">Industries</h2>
+            </div>
+        <div class="industries-card">
+            <div class="group-card card-group1">
+                <div class="industry-card finance">
+                    <h3>Finance and Banking</h3>
+                    <img src="images/finance.png" alt="finance" class="industry-images" width="247.47" height="244.42">
+                </div>
+                <div class="industry-card education">
+                    <h3>Education</h3>
+                    <img src="images/education.png" alt="education" class="industry-images" width="243.47" height="256.57">
+                </div>
+                
+            </div>
+            <div class="group-card card-group2">
+                <div class="industry-card retail">
+                    <h3>Retail and Commerce</h3>
+                    <img src="images/retail.png" alt="retail" class="industry-images" width="243.47" height="256.42">
+                </div>
+                <div class="industry-card customer">
+                    <h3>Customer Care</h3>
+                    <img src="images/customer.png" alt="customer" class="industry-images" width="386.47" height="229.42">
+                </div>
+            </div>
+        </div>
+        <div class="touch-container touch-card">
+            <span class="touch-text">Can't find your Industry? Get in touch with us...</span>
+            <button class="touch-btn btn">Get in touch</button>
+        </div>
+    </section>
+    <section id="about-us" class="about-us">
+        <h2 class="about-us lazy-fade" data-text="About Us" >About Us</h2>
+        <p  class="nice-paragraph">At BIGGSS, we specialize in providing innovative software solutions that help businesses thrive in the digital age. 
+            With expertise in software development, and cutting-edge technologies like cloud computing, AI, and machine learning, 
+            we deliver scalable, high-quality solutions tailored to meet the unique needs of our clients across various industries.
+        </p>
+        <p class="nice-paragraph">Our collaborative approach sets us apart. We partner closely with our clients to understand their business goals and challenges, 
+            ensuring that the solutions we deliver drive growth, streamline operations, and enhance customer experiences. 
+            Whether you're modernizing systems or building new digital platforms, BIGGSS is committed to bringing your vision to life.
+        </p>            
+    </section>
+    <section id="case-study" class="case-study">
+        <h2 class="case-study lazy-fade" data-text="Case Studies" >Case Studies</h2>
+        <div class="tabs">
+            <div class="e-service-tab tab" onclick="showTab('e-services')">
+                <h4>
+                    01  <span class="tab-text">E-Services</span>
+                </h4>
+                <hr>
+            </div>
+            <div class="education-tab tab" onclick="showTab('education')">
+                <h4>
+                    02  <span class="tab-text">Education</span> 
+                </h4>
+                <hr>
+            </div>
+        </div>
+        <div class="case-container">
+            <div class="e-services-container">
+                <div class="tab-container">
+                    <h3 class="case-title">
+                        E-Services 
+                    </h3>
+                    <div class="case-left">
+                        <p class="case-text">
+                            BIGGSS uses AI and machine learning to convert customer interactions into insights, 
+                            creating scorecards that help improve customer sentiment analysis and service
+                            quality through data-driven decisions. 
+                        </p>
+                        <img src="images/e-services.png" class="e-services-img" alt="e-services">
+                    </div>
+                </div>
+                <p class="nice-paragraph  case-paragraph">
+                    In today’s digital world, exceptional customer care is more critical than ever. At BIGGSS, 
+                    we harness the power of AI and machine learning to transform the way businesses manage customer 
+                    interactions. Our intelligent system analyses every customer call, generating detailed insights 
+                    and scorecards that reveal sentiment, trends, and areas for improvement. By leveraging these 
+                    data-driven insights, businesses can boost service quality, enhance customer satisfaction, 
+                    and make smarter decisions that drive long-term success.
+                </p>
+            </div>
+            <div class="education-container">
+                <div class="tab-container">
+                    <h3 class="case-title">
+                        Education
+                    </h3>
+                    <h4 class="case-subtitle">
+                        Empowering Student Success with Innovative Placement Services
+                    </h4>
+                    <div class="case-left">
+                        <p class="case-text">
+                            At BIGGSS, we are committed to bridging the gap between education and employment.
+                            Our tailored placement solutions have successfully connected over 300 students 
+                            and recent graduates with valuable career opportunities. By offering personalized guidance, 
+                            we help the next generation realize their professional aspirations.
+                        </p>
+                        <img src="images/education 2.png" class="education-img" alt="education">
+                    </div>
+                </div>
+                <p class="nice-paragraph case-paragraph">
+                    Transforming Education into Career Success with Personalized Placement Services.
+                    In today's competitive job market, finding the right career opportunity can be challenging for students and recent graduates. 
+                    At BIGGSS, we specialize in providing tailored placement solutions that bridge the gap between education and employment. 
+                    Our services connect aspiring professionals with top employers, offering personalized guidance and support throughout the process. 
+                    With our extensive network and industry expertise, we empower students to launch successful careers and achieve their professional goals.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact-us" class="contact-container">
+        <h2 class="contact lazy-fade" data-text="Get in touch" >Get in touch</h2>
+        <div class="contact-us">
+            <div class="contact-left">
+                <h5 class="contact-p">Your detail or data is not shared</h5>
+                <form action="submit" class="contact-form">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <button class="submit">Submit</button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <div class="corporate-office">
+                    <h4>Corporate Office</h4>
+                    <span>1013 Centre Road, Suite 403S Willmington DE, 19805</span>
+                    <span>Phone: 484-229-4771</span>
+                    <span>Fax: 484-229-7930</span>
+                    <span>Email:  biggsssoftwareconsult.com</span>
+                </div>
+                
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>  
+    </main>
+    <footer>
+        <div class="rights">
+            <span class="rights-reserved">
+                Biggss Software consultancy© 2024 | All Rights Reserved
+            </span>
+        </div>
+        <nav class="footer-nav">
+            <ul class="footer-ul">
+                <li class="dnav-item"><a href="#hero">Home</a></li>
+                <li class="dnav-item"><a href="#services">Services</a></li>
+                <li class="dnav-item"><a href="#industries">Industries</a></li>
+            </ul>
+            <ul class="footer-ul footer-list2">
+                <li class="dnav-item"><a href="#about-us">About</a></li>
+                <li class="dnav-item"><a href="#case-study">Case Study</a></li>
+                <li class="dnav-item"><a href="#contact-us">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
