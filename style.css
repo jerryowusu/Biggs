@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 10px;
@@ -49,7 +53,6 @@ main {
 
 
 .nav-list {
-    background-color: red;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -243,14 +246,31 @@ main {
     border: 1px solid #000;
     margin-top: 20px;
     margin: auto;
+    font-size: 1rem;
+    align-items: center;
+    cursor: pointer;
+    width: 150px;
+    min-width: 120px;
+    height: 50px;
 }
 
 .btn a {
     text-decoration: none;
     font-weight: 400;
-    font-size: 28px;
+    /* font-size: 28px; */
     text-align: center;
     color: #000;
+}
+
+.hero-btn {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .middle {
@@ -271,7 +291,7 @@ main {
     padding: 60px;
     border-radius: 48px;
     background-color: #f3f2f2;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 h2 {
@@ -301,14 +321,17 @@ h2 {
 }
 
 .service-card {
-    /* width: 471px;
-    height: 215px; */
-    /* top: 1206px;
-    left: 655px; */
-    width: 33%;
+    width: 35%;
     margin: 20px 0; 
     border-radius: 24px;
     background-color: #fff;
+    
+}
+
+.service-card img {
+    width: 25%;
+    min-width: 50px;
+    height: auto;
 }
 
 .service-card:hover {
@@ -320,7 +343,7 @@ h2 {
         /* width: 163px;
         height: 60px; */
         font-weight: 700;
-        font-size: 25px;
+        font-size: 22px;
         line-height: 30px;
 }
 
@@ -357,14 +380,15 @@ h2 {
 
 .industry-card {
     display: flex;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  */
     background-color: #92e3a9;    
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    width: 400px;
-    min-width: 300px;
-    height: 328px;
+    /* max-width: 520px; */
+    min-width: 350px;
+    min-height: 250px;
+    max-height: 328px;
     border-radius: 48px;
     transition: all 0.3s ease;
 }
@@ -381,10 +405,19 @@ h2 {
     position: absolute;
     right: 10px;
     bottom: 0;
-    width: 70%;
+    width: 60%;
     height: auto;
 }
 
+.finance img, .retail img {
+    width: 55%;
+    height: auto;
+}
+
+.customer img, .education img {
+    width: 80%;
+    height: auto;
+}
 
 .finance h3 {
     color: #92E3A9;
@@ -421,7 +454,11 @@ h2 {
 }
 
 .touch-container {
-    /* display: flex; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 40px; */
+    max-width: 80%;
     /* align-items: center; */
     /* justify-content: center; */
     /* padding: 20px; */
@@ -431,11 +468,13 @@ h2 {
 .touch-text {
         font-size: 1.2rem;
         color: #333;
+        margin-bottom: 15px;
         margin-right: 15px;
 }
 
 .about-us {
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .about-us h2 {
@@ -541,8 +580,8 @@ hr {
 
 .e-services-img, .education-img {
     position: relative;
-    width: 35%;
-    height: auto;
+    width: 40%;
+    height: 50%;
     bottom: 0;
 }
 
@@ -567,8 +606,14 @@ hr {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    width: 100%;
+    height: 60px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form textarea {
+    height: 100%;
 }
 
 .contact-form input:focus,
@@ -583,11 +628,13 @@ hr {
     background-color: #92e3a9;
     color: #000;
     border: none;
-    width: 60%;
-    margin: auto;
-    border-radius: 45px;
+    width: 100%;
+    height: 60px;
+    /* margin: auto; */
+    font-weight: 400;
+    border-radius: 24px;
     padding: 12px 20px;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
@@ -632,6 +679,7 @@ hr {
     justify-content: space-between;
     align-items: stretch;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .contact-left {
@@ -733,7 +781,7 @@ footer {
 }
 
 
-/* @media (max-width: 1204px) {
+ @media (max-width: 1204px) {
     h1 {
      font-size: 48px;
   
@@ -752,7 +800,7 @@ footer {
      font-size: 38px;
   
     }
- } */
+ } 
 
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -882,6 +930,7 @@ footer {
 
        .case-study { 
         text-align: center;
+        margin-bottom: 20px;
        }
 
        .contact-p {
@@ -928,24 +977,39 @@ footer {
     .hero {
         text-align: center;
     }
-   
+
+    
+.hero-btn {
+    position: relative;
+    margin: 10px;
+}
+
+    
+
     .services {
         text-align: center ;
         align-items: center;
+        margin: 20px auto 0;
     }
 
     .services-card {
         flex-direction: column;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .service-card {
+        width: 100%;
     }
 
     .services-card div {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        /* gap: 20px; */
         background-color: #fff;
         align-items: start;
-        margin: 10px;
-        min-width: 300px;
+        /* margin: 10px; */
+        min-width: 270px;
         text-align: start;
         padding: 20px;
         border-radius: 10px;
@@ -972,13 +1036,11 @@ footer {
     .touch-card {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        max-width: 100%;
+        /* gap: 10px; */
         text-align: center;
         align-items: center;
-    }
-
-    .case-study {
-    max-width: 1225px;
+        margin-top: -30px;
     }
 
     .case-container, .contact-us {
@@ -989,8 +1051,14 @@ footer {
         margin: 20px 0;
     }
 
+
+
     .card-group2 {
         margin-top: 60px;
+    }
+
+    .card-group1 {
+        transform: translateY(0); 
     }
 
     .industries-card {
@@ -1080,6 +1148,9 @@ footer {
     align-items: left;
 }
 
+br {
+    display: block;
+}
 
 .submit {
     margin: 10px auto;
@@ -1093,6 +1164,7 @@ footer {
 .footer-nav {
     display: flex;
     flex-direction: column;
+    margin: auto;
     font-size: 14px;
 }
 
@@ -1140,12 +1212,6 @@ footer {
 }
 
 
-.hero-btn {
-    position: relative;
-    right: 0;
-}
-
-
 .main-container {
     display: flex;
     flex-direction: column;
@@ -1177,4 +1243,9 @@ footer {
     }
 }
 }
+
+
+
+
+
 
