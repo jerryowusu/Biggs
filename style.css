@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 10px;
@@ -242,14 +246,25 @@ main {
     border: 1px solid #000;
     margin-top: 20px;
     margin: auto;
+    font-size: 1rem;
+    align-items: center;
+    cursor: pointer;
+    width: 150px;
+    min-width: 120px;
+    height: 50px;
 }
 
 .btn a {
     text-decoration: none;
     font-weight: 400;
-    font-size: 28px;
+    /* font-size: 28px; */
     text-align: center;
     color: #000;
+}
+
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .middle {
@@ -420,7 +435,11 @@ h2 {
 }
 
 .touch-container {
-    /* display: flex; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 80%;
     /* align-items: center; */
     /* justify-content: center; */
     /* padding: 20px; */
@@ -430,6 +449,7 @@ h2 {
 .touch-text {
         font-size: 1.2rem;
         color: #333;
+        margin-bottom: 15px;
         margin-right: 15px;
 }
 
@@ -1139,12 +1159,6 @@ footer {
 }
 
 
-.hero-btn {
-    position: relative;
-    right: 0;
-}
-
-
 .main-container {
     display: flex;
     flex-direction: column;
@@ -1176,4 +1190,6 @@ footer {
     }
 }
 }
+
+
 
