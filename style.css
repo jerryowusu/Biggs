@@ -75,6 +75,10 @@ header.nav-list {
     font-size: 15px;
     font-weight: 300;
     transition: all 0.3s ease;
+
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
 }
 
 .dnav-item a:hover {
@@ -115,6 +119,7 @@ header.nav-list {
 .down-left {
     display: flex;
     flex-direction: column;
+    max-width: 50%;
     /* align-items: center; */
     position: relative;
     /* width: 60%; */
@@ -124,7 +129,7 @@ header.nav-list {
 .top-right {
     /* flex: ; */
     display: flex;
-    /* width: 10%; */
+    max-width: 30%;
     flex-direction: row;
     align-items: flex-start;
     /* margin-right: 10px; */
@@ -145,11 +150,11 @@ header.nav-list {
 } */
 
 
-/* .table-books, .code2, .settings2 {
-    max-width: 50%;
+.table-books, .code2, .settings2 {
+    max-width: 60%;
     height: auto;
     transition: transform 0.3s ease;
-} */
+}
 
 .table-books:hover, .code2:hover, .settings2:hover {
     transform: scale(1.05);
@@ -193,7 +198,8 @@ header.nav-list {
 
 .copies {
     width: 15%;
-    max-width: 250px;
+    height: 10%;
+    /* max-width: 250px; */
 }
 
 
@@ -258,7 +264,16 @@ header.nav-list {
     min-width: 120px;
     height: 50px; */
 
-    width: 248px;
+    width: 200px;
+    max-width: 20%;
+    height: auto;
+    padding: 10px;
+
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    /* display: inline-block;  */
+
     /* height: 67px; */
     /* top: 1494px; */
     /* left: 701px; */
@@ -293,7 +308,16 @@ header.nav-list {
     position: absolute;
     top: 20%;
     right: -7%;
+    max-width: 30%;
+    padding: 10px 20px;   
+    
 }
+
+.touch-btn {
+    max-width: 30%;
+    padding: 10px 20px;
+}
+
 
 img {
     max-width: 100%; 
@@ -364,7 +388,8 @@ h2 {
     background-color: #fff; */
     margin-top: 30px;
     width: 417px;
-    height: 215px;
+    padding: 20px;
+    /* height: 215px; */
    max-width: 600px;
     border-radius: 24px;
     opacity: 0px;
@@ -446,7 +471,7 @@ h2 {
 .industries {
     width: 80%;
     /* display: block; */
-    margin: 0 auto;
+    margin: 20px auto;
     /* align-items: center; */
     gap: 20px;
 }
@@ -654,6 +679,7 @@ border-radius: 48px 0px 0px 0px;
 opacity: 0px;
 
 
+margin-bottom: 20px;
 
     display: flex;
     flex-direction: row;
@@ -954,12 +980,12 @@ footer {
 }
 
 .rights-reserved {
-    width: 373px;
+    /* width: 373px;
 height: 27px;
 top: 5821px;
 left: 178px;
 gap: 0px;
-opacity: 0px;
+opacity: 0px; */
 
 font-size: 13px;
 font-weight: 300;
@@ -967,7 +993,6 @@ line-height: 27px;
 letter-spacing: 0.03em;
 text-align: left;
 
-font-family: Inter;
 font-size: 13px;
 font-weight: 300;
 line-height: 27px;
@@ -978,14 +1003,13 @@ color: #92E3A9;
 }
 
 .terms {
-    width: 204px;
+    /* width: 204px;
     height: 27px;
     top: 5821px;
     left: 589px;
     gap: 0px;
-    opacity: 0px;
+    opacity: 0px; */
 
-    font-family: Inter;
     font-size: 13px;
     font-weight: 300;
     line-height: 27px;
@@ -1006,6 +1030,9 @@ color: #92E3A9;
 
 .footer-ul> .dnav-item a {
     color: #fff;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
 }
 
 .footer-nav {
@@ -1079,35 +1106,40 @@ color: #92E3A9;
     font-size: 52px;
    }
 
-   .copies {
+   /* .copies {
     width: 190px;
     height:200px;
-   }
+   } */
  }
 
 @media (max-width: 1024px) {
    h1 {
-    font-size: 42px;
- 
+    font-size: 42px; 
+   }
+
+   .footer-in {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .contact-left {
+    width: 80%;
+    margin: auto;
    }
 }
 
 @media (max-width: 950px) {
     h1 {
-     font-size: 38px;
-  
+     font-size: 38px;  
     }
 
-    .e-tab-container {
-        flex-direction: column;
-        /* justify-content: center; */
-        align-items: center;
-        padding: 20px 0; 
+    .e-services-img, .education-img {
+        width: 40%;
+        height: 60%;
+        margin: auto;
     }
 
-    .education-case-left, .e-service-left {
-        flex-direction: column;
-    }
  } 
 
 /* Responsive styles */
@@ -1326,9 +1358,19 @@ color: #92E3A9;
         transition: transform 0.3s, box-shadow 0.3s;
     }
 
+    /* .e-services-img, .education-img {
+        height: 60%;
+        margin: auto;
+    } */
+
     .e-services-img, .education-img {
-        max-width: 100%;
+        width:  80%;
         height: auto;
+    }
+
+    .education-case-left, .e-services-case-left {
+        flex-direction: column;
+        gap: 20px;
     }
     
     .e-tab-container {
@@ -1336,11 +1378,9 @@ color: #92E3A9;
         flex-direction: column;
         gap: 10px;
         align-items: center;
-        margin: 10px;
         padding: 10px;
-        text-align: center;
-    }    
-
+    }   
+    
     .touch-card {
         display: flex;
         flex-direction: column;
