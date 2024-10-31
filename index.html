@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header class="header">
-    <img src="images/logo.png" alt="Logo" class="logo">
+    <header>
+        <div class="header">
+    <img src="images/logo_2-02.svg" alt="Logo" class="logo">
     <nav class="dnav desktop-nav">
         <ul class="nav-list">
             <li class="dnav-item"><a href="#hero">Home</a></li>
@@ -34,52 +35,59 @@
             </ul>
         </nav>
     </div>
+    </div>
     </header>
     <main>
         <section id="hero" class="hero">
             <div class="top-images">
                 <div class="top-left">
-                    <img src="images/table and books.png" alt="table and books" class="table-books" width="385.26" height="222">
+                    <img src="images/table.svg" alt="table and books" class="table-books" width="385.26" height="222">
                 </div>
                 <div class="top-right">
-                    <img src="images/code 2.png" alt="code 2" class="code2" width="278.89" height="210.61">
-                    <img src="images/settings 2.png" alt="settings 2" class="settings2" width="166.92" height="160.7" class="settings2">
+                    <img src="images/code.svg" alt="code 2" class="code2" width="278.89" height="210.61">
+                    <img src="images/settings2.svg" alt="settings 2" class="settings2" width="166.92" height="160.7" class="settings2">
                 </div>
             </div>
-            <h1 class="main-header">We are a software consultancy <br> firm, to support your journey</h1>
+            <div class="mobile-top-images">
+                    <img src="images/table.svg" alt="table and books" class="table-books" width="385.26" height="222">
+                    <img src="images/code.svg" alt="code 2" class="code2" width="278.89" height="210.61">
+                    <img src="images/settings2.svg" alt="settings 2" class="settings2" width="166.92" height="160.7" class="settings2">
+            </div>
+            <h1 class="main-header">We are a software consultancy  firm, <br> to support your journey</h1>
+            <h1 class="mobile-header">We are a software <br> consultancy  firm, to <br> support your journey</h1>
             <div class="down-images">
                 <div class="down-left">
                     <div class="inline">
-                        <img src="images/settings 1.png" alt="settings1"  class="settings1" width="70.92" height="70.7">
-                        <img src="images/motion.png" alt="motion" class="motion-img" width="684.92" height="255.7">
+                        <img src="images/settings1.svg" alt="settings1"  class="settings1" width="70.92" height="70.7">
+                        <img src="images/motion.svg" alt="motion" class="motion-img" width="684.92" height="255.7">
                     </div>
-                    <button class="hero-btn btn"><a href="#contact-us">Get in touch</a></button>
+                    <a href="#contact-us" class="btn middle hero-btn">Get in touch</a>
                 </div>
-                <img src="images/copies.png" alt="copies" class="copies" width="191.92" height="219.7">
+                <img src="images/copies.svg" alt="copies" class="copies" width="191.92" height="219.7">
             </div>
         </section>              
     <section id="services" class="services">
         <h2 class="lazy-fade" data-text="Services">Services</h2>
-        <p class="nice-paragraph">At BIGGSS we specialize in delivering tailored software solutions that drive efficiency, 
+        <p class="nice-paragraph mobile-p">At BIGGSS we specialize in delivering tailored software solutions that drive efficiency, 
             enhance productivity, and support your business goals. Our team of experienced developers, 
             project managers, and UX/UI designers work collaboratively with you to create software 
             that fits your unique needs.
         </p>
         <div class="services-card">
             <div class="service-card ai">
-                <img src="images/Ai.png" alt="ai development" loading="lazy">
+                <img src="images/ai code.svg" alt="ai development" loading="lazy" width="620.73" height="55.63">
                 <h3>Ai  <br>Development</br></h3>
             </div>
             <div class="service-card app-dev">
-                <img src="images/Application.png" alt="application development" loading="lazy">
+                <img src="images/app dev.svg" alt="application development" loading="lazy">
                 <h3>Application <br>Development</br></h3>
             </div>
             <div class="service-card innovation">
-                <img src="images/Innovation.png" alt="innovation hub" loading="lazy">
+                <img src="images/innovation.svg" alt="innovation hub" loading="lazy">
                 <h3>Innovation  <br>Hub</br></h3>
             </div>
         </div>
-        <button class="btn middle"><a href="#contact-us">Get in touch</a></button>
+        <a href="#contact-us" class="btn middle">Get in touch</a>
     </section>
     <section id="industries" class="industries">
         <div class="industries-title">
@@ -94,37 +102,37 @@
             <div class="group-card card-group1">
                 <div class="industry-card finance">
                     <h3>Finance and Banking</h3>
-                    <img src="images/finance.png" alt="finance" loading="lazy" class="industry-images" >
+                    <img src="images/finance.svg" alt="finance" loading="lazy" class="industry-images" >
                 </div>
                 <div class="industry-card education">
                     <h3>Education</h3>
-                    <img src="images/education.png" alt="education" loading="lazy" class="industry-images" >
+                    <img src="images/education.svg" alt="education" loading="lazy" class="industry-images" >
                 </div>
                 
             </div>
             <div class="group-card card-group2">
                 <div class="industry-card retail">
                     <h3>Retail and Commerce</h3>
-                    <img src="images/retail.png" alt="retail" loading="lazy" class="industry-images">
+                    <img src="images/retail.svg" alt="retail" loading="lazy" class="industry-images">
                 </div>
                 <div class="industry-card customer">
                     <h3>Customer Care</h3>
-                    <img src="images/customer.png" alt="customer" loading="lazy" class="industry-images">
+                    <img src="images/customer.svg" alt="customer" loading="lazy" class="industry-images">
                 </div>
             </div>
         </div>
         <div class="touch-container touch-card">
             <span class="touch-text">Can't find your Industry? Get in touch with us...</span>
-            <button class="touch-btn btn middle"><a href="#contact-us">Get in touch</a></button>
+            <a href="#contact-us" class="btn middle">Get in touch</a>
         </div>
     </section>
     <section id="about-us" class="about-us">
         <h2 class="about-us lazy-fade" data-text="About Us" >About Us</h2>
-        <p  class="nice-paragraph">At BIGGSS, we specialize in providing innovative software solutions that help businesses thrive in the digital age. 
+        <p  class="nice-paragraph mobile-p">At BIGGSS, we specialize in providing innovative software solutions that help businesses thrive in the digital age. 
             With expertise in software development, and cutting-edge technologies like cloud computing, AI, and machine learning, 
             we deliver scalable, high-quality solutions tailored to meet the unique needs of our clients across various industries.
         </p>
-        <p class="nice-paragraph">Our collaborative approach sets us apart. We partner closely with our clients to understand their business goals and challenges, 
+        <p class="nice-paragraph mobile-p">Our collaborative approach sets us apart. We partner closely with our clients to understand their business goals and challenges, 
             ensuring that the solutions we deliver drive growth, streamline operations, and enhance customer experiences. 
             Whether you're modernizing systems or building new digital platforms, BIGGSS is committed to bringing your vision to life.
         </p>            
@@ -158,9 +166,9 @@
                             quality through data-driven decisions. 
                         </p>
                     </div>
-                        <img src="images/e-services.png" class="e-services-img" alt="e-services" loading="lazy">
+                        <img src="images/e-services.svg" class="e-services-img" alt="e-services" loading="lazy">
                 </div>
-                <p class="nice-paragraph  case-paragraph">
+                <p class="nice-paragraph  case-paragraph mobile-p">
                     In today’s digital world, exceptional customer care is more critical than ever. At BIGGSS, 
                     we harness the power of AI and machine learning to transform the way businesses manage customer 
                     interactions. Our intelligent system analyses every customer call, generating detailed insights 
@@ -186,10 +194,10 @@
                             and recent graduates with valuable career opportunities. By offering personalized guidance, 
                             we help the next generation realize their professional aspirations.
                         </p>
-                        <img src="images/education 2.png" class="education-img" alt="education" loading="lazy">
+                        <img src="images/educationwoman.svg" class="education-img" alt="education" loading="lazy">
                     </div>
                 </div>
-                <p class="nice-paragraph case-paragraph">
+                <p class="nice-paragraph case-paragraph mobile-p">
                     Transforming Education into Career Success with Personalized Placement Services.
                     In today's competitive job market, finding the right career opportunity can be challenging for students and recent graduates. 
                     At BIGGSS, we specialize in providing tailored placement solutions that bridge the gap between education and employment. 
@@ -200,9 +208,15 @@
         </div>
     </section>
     <section id="contact-us" class="contact-container">
-        <h2 class="contact lazy-fade" data-text="Get in touch" >Get in touch</h2>
         <div class="contact-us">
+            <div class="mobile-social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
             <div class="contact-left">
+                <h2 class="contact lazy-fade" data-text="Get in touch" >Get in touch</h2>
                 <h5 class="contact-p">Your detail or data is not shared</h5>
                 <form action="submit" class="contact-form">
                     <input type="text" placeholder="Name">
@@ -215,7 +229,7 @@
                 <div class="corporate-office">
                     <h4>Corporate Office</h4>
                     <div class="corporate-text">
-                        <span>1013 Centre Road, Suite 403S Willmington DE, 19805</span>
+                        <span>1013 Centre Road, Suite 403S Willmington DE</span>
                         <br>
                         <span>Phone: 484-229-4771</span>
                         <br>
@@ -232,6 +246,7 @@
                     <a href="#"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
+            
         </div>
     </section>  
     </main>
@@ -257,7 +272,7 @@
                     <li class="dnav-item"><a href="#contact-us">Contact Us</a></li>
                 </ul>
             </nav>
-            </div>
+          </div>
     </footer>
     <script src="script.js"></script>
 </body>
