@@ -275,6 +275,13 @@ a {
 
 }
 
+.btn:hover {
+    background-color: #72cd8d;
+    transform: translateY(-3px);
+    transform: 0.3s ease-in;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
 .hero-btn {
     position: absolute;
     top: 20%;
@@ -1220,6 +1227,14 @@ color: #92E3A9;
         border: 1px;
         opacity: 0px;
         border: 1px solid #000000
+    }
+    
+    .btn:hover {
+        color: white;
+        background-color: #199b40;
+        transform: translateY(-3px); 
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
     }
 
     .close-btn {        
