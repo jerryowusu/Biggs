@@ -1111,7 +1111,24 @@ color: #92E3A9;
     }
 
     .mobile-menu {
-        display: block;        
+        display: block;  
+        text-align: left;      
+    }
+
+    .mobile-nav {
+       
+    }
+
+    .mobile-list {
+       list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+    }
+
+    .mobile-menu .nav-item {
+       display: flex;
+        flex-direction: column;
     }
 
     .main-header {
@@ -1245,9 +1262,10 @@ color: #92E3A9;
         color: #000;
         border: 2px solid #000;
         font-size: 1.5rem;
-        font-weight: bold;
-        border: none;
         cursor: pointer;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
         transition: color 0.3s;
     }
     
@@ -1264,31 +1282,39 @@ color: #92E3A9;
         margin-top: 2rem;
     }
 
-    .mobile-list .nav-item {
-        margin: 1.5rem 0;
+    .mobile-nav ul {
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        margin-left: 20px;
     }
-    
+
     .mobile-list .nav-item a {
-        color: #00ff9d;
-        font-size: 1.5rem;
-        font-weight: 600;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: color 0.3s, transform 0.3s ease;
-        position: relative;
-        padding: 0.5rem 1rem;
-        display: inline-block;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 18.15px;
+        text-align: left;
+        padding: 20px;
+        
+
     }
     
     .mobile-list .nav-item a:hover {
-        color: #1e1e1e;
-        background: #00ff9d;
+        color: #70bb84;
+        background: #92E3A92B;
         padding: 0.5rem 1.2rem;
-        border-radius: 10px;
-        box-shadow: 0px 6px 15px rgba(0, 255, 157, 0.4);
+        border-radius: 3px;
+        /* box-shadow: 0px 6px 15px rgba(0, 255, 157, 0.4); */
         transform: scale(1.05);
     }
     
+    .mobile-logo {
+        position: absolute;
+        top: -17%;
+        right: 10%;
+        transition: color 0.3s;
+    }
 
     .down-images {
         width: 100%;
@@ -1343,6 +1369,11 @@ color: #92E3A9;
 
     .menu-toggle {
         display: block;
+        width: 40px;
+        height: 25px;
+        border: none;
+        font-weight: bold;
+        background-color: transparent;
     }
 
     .top-right {
@@ -1603,6 +1634,7 @@ color: #92E3A9;
         height: 270px;
         bottom: 0;
         gap: 30px;
+        border-radius: 21px;
         /* width: 100%; */
     }
 
