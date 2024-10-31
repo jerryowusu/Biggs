@@ -1103,6 +1103,11 @@ color: #92E3A9;
 
 /* Responsive styles */
 @media (max-width: 768px) {
+   /* * {
+    padding: 5px;
+   }
+    */
+   
     header {
         max-width: 750px;
         flex-direction: row;
@@ -1474,7 +1479,7 @@ color: #92E3A9;
     }
 
     .services-card div { 
-        min-width: 320px;
+        min-width: 300px;
         height: 215px;
         
         border-radius: 24px;
