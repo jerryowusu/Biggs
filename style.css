@@ -257,7 +257,7 @@ a {
 
 .btn {
     width: 200px;
-    max-width: 20%;
+    /* max-width: 20%; */
     height: auto;
     padding: 10px 15px;
 
@@ -279,7 +279,7 @@ a {
     position: absolute;
     top: 20%;
     right: -7%;
-    max-width: 30%;
+    /* max-width: 30%; */
 }
 
 .touch-btn {
@@ -438,13 +438,13 @@ h2 {
 .industry-card {
     /* display: flex;
     flex-direction: column;
-    position: relative;
     overflow: hidden;
     min-width: 350px;
     min-height: 250px;
     max-height: 328px;
     border-radius: 48px;
     transition: all 0.3s ease; */
+    position: relative;
 
     width: 454px;
     /* height: 328px; */
@@ -482,6 +482,7 @@ h2 {
 
     margin: auto;
 }
+
 
 
 .finance img, .retail img {
@@ -533,7 +534,7 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     /* padding: 40px; */
-    max-width: 80%;
+    max-width: 100%;
     /* align-items: center; */
     /* justify-content: center; */
     /* padding: 20px; */
@@ -1030,7 +1031,7 @@ color: #92E3A9;
     border-radius: 45px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-
+    /* max-width: 30%; */
     border: 1px solid #000000
 
    }
@@ -1162,7 +1163,7 @@ color: #92E3A9;
     }
 
     .case-paragraph {
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 46px;
     letter-spacing: 0.03em;
@@ -1287,7 +1288,8 @@ color: #92E3A9;
     }
 
     .motion-img {
-        width: 100%;
+        max-width: 100%;
+        /* max-height: 100%; */
     }
 
     .copies {
@@ -1368,10 +1370,11 @@ color: #92E3A9;
      .down-left {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         position: relative;
-        width: 80%;
-        margin: auto;
+        margin-left: 0;
+        width: 100%;
+        /* margin: auto; */
     }
 
     .logo {
@@ -1386,10 +1389,10 @@ color: #92E3A9;
     
 .hero-btn {
     position: absolute;
-    width: 60%;
-    height: 35%;
-    top: 50%;
-    right: 16%;
+    /* width: 60%; */
+    /* height: 35%; */
+    top: 20%;
+    right: 25%;
     border: 2px solid #000000;
 }
 
@@ -1799,6 +1802,40 @@ footer {
     width: 100%;
 }
 }
+
+@media  (max-width: 992px) {
+    .case-text {
+        font-size: 18px;
+    }
+}
+
+
+@media  (max-width: 850px) {
+    .main-header {
+        font-size: 50px;
+    }
+}
+
+
+@media  (max-width: 820px) {
+    .main-header {
+        font-size: 45px;
+    }
+}
+
+
+@media  (max-width: 620px) {
+    .hero-btn {
+        position: absolute;
+        width: 50%;
+        height: 30%;
+        top: 20%;
+        right: 25%;
+        border: 2px solid #000000;
+    }
+}
+
+
 
 /* 
 @media (max-width: 416px) {
