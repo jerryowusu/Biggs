@@ -1603,6 +1603,7 @@ color: #92E3A9;
         height: 270px;
         bottom: 0;
         gap: 30px;
+        border-radius: 21px;
         /* width: 100%; */
     }
 
