@@ -1977,9 +1977,15 @@ footer {
 }
 
 
+@media  (max-width: 500px) {
+    .hero {
+        height: 630px;
+    }
+}
+
 @media  (max-width: 420px) {
     .hero {
-        height: 580px;
+        height: 550px;
     }
 
     .hero h1 {
