@@ -620,7 +620,7 @@ height: 605px;
 top: 3920px;
 left: 232px;
 gap: 0px; */
-border-radius: 48px 0px 0px 0px;
+border-radius: 48px;
 opacity: 0px;
 
 
@@ -630,7 +630,7 @@ margin-bottom: 20px;
     flex-direction: row;
     background-color: #92e3a9;
     border-radius: 48px;
-    padding: 80px 50px 20px 50px;
+    padding: 40px 20px 40px 20px;
 }
 
 .education-tab-container {
@@ -649,7 +649,7 @@ margin-bottom: 20px;
     flex-direction: column;
     background-color: #92e3a9;
     border-radius: 48px;
-    padding: 80px 50px 20px 50px;
+    padding: 40px 20px 40px 20px;
 }
 
 .case-title {
