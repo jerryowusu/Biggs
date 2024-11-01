@@ -507,9 +507,6 @@ hr {
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
-}
-
-.e-services-container, .education-container {
     background-color: #92e3a9;
     border-radius: 48px;
     padding: 40px 20px 40px 20px;
@@ -521,6 +518,9 @@ hr {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
+    background-color: #92e3a9;
+    border-radius: 48px;
+    padding: 40px 20px 40px 20px;
 }
 
 .case-title {
