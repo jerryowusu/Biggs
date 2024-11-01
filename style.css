@@ -110,6 +110,8 @@ header.nav-list {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    max-width: 1400px;
+    width: 100%;
     align-items: stretch;
     position: relative;
     font-size: 15px;
@@ -255,7 +257,13 @@ img {
 }
 
 .services {
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1400px;
+    width: 100%;
+    padding: 40px 20px;
     border-radius: 48px;
     background-color: #f3f2f2;
     margin-top: 60px;
@@ -575,7 +583,6 @@ height: 350.49px;
     border-radius: 10px;
     width: 100%;
     height: 60px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -587,7 +594,6 @@ height: 350.49px;
 .contact-form input:focus,
 .contact-form textarea:focus {
     border-color: #72cd8d;
-    box-shadow: 0 0 10px rgba(114, 205, 141, 0.5);
     outline: none;
 }
 
