@@ -9,10 +9,10 @@ function toggleMenu() {
 
 document.querySelectorAll('.nav-item a').forEach(item => {
     item.addEventListener('click', () => {
-       const nav = document.querySelector('.nav');
-       const menuToggle = document.querySelector('.menu-toggle');
-       nav.classList.remove('active');
-       menuToggle.textContent = '☰';
+    const nav = document.querySelector('.nav');
+    const menuToggle = document.querySelector('.menu-toggle');
+    nav.classList.remove('active');
+    menuToggle.textContent = '☰';
     })
 })
 
@@ -59,35 +59,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     })
 })
-
-  
-
-  // document.addEventListener("DOMContentLoaded", () => {
-  //   const typingElements = document.querySelectorAll(".lazy-fade");
-  
-  //   typingElements.forEach((element) => {
-  //     const originalText = element.getAttribute("data-text");
-  //     let isTyping = false; // Flag to track typing status
-  
-  //     element.addEventListener("mouseover", () => {
-  //       if (isTyping) return; // Exit if already typing
-  
-  //       isTyping = true; // Set typing status
-  //       element.textContent = ""; // Reset content
-  //       let i = 0;
-  
-  //       // Interval to type each character
-  //       element.typingInterval = setInterval(() => {
-  //         element.textContent += originalText.charAt(i); // Type one character
-  //         i++;
-  
-  //         if (i === originalText.length) {
-  //           clearInterval(element.typingInterval); // Stop typing when complete
-  //           isTyping = false; // Reset typing status
-  //         }
-  //       }, 100); // Adjust speed as needed (100ms)
-  //     });
-  //   });
-  // });
-  
-  
