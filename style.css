@@ -4,7 +4,7 @@ html {
 
 * {
     margin: 0;
-    padding: 10px;
+    padding: 0.625rem;
     box-sizing: border-box;
     font-family: 'inter', sans-serif;
 }
@@ -12,13 +12,13 @@ html {
 /* Body styling */
 body {
     margin: auto;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.6;
     background-color: #ffffff;
 }
 
 main {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -252,6 +252,9 @@ img {
     height: auto; 
 }
 
+
+
+
 .middle {
     display: flex;
     justify-self: center;
@@ -397,6 +400,8 @@ h2 {
     margin: auto;
 }
 
+
+
 .finance img, .retail img {
     width: 55%;
     height: auto;
@@ -508,7 +513,6 @@ hr {
     margin: 5px 0;
 }
 
-
 .active-tab {
     color: #92e3a9;
 }
@@ -516,7 +520,6 @@ hr {
 .hidden {
     display: none;
 }
-
 
 .e-tab-container {
     border-radius: 48px;
@@ -588,8 +591,6 @@ height: 350.49px;
     line-height: 46px;
     letter-spacing: 0.05em;
     text-align: left;
-
-
 }
 
 
@@ -661,7 +662,6 @@ height: 350.49px;
     position: relative;
     z-index: 1;
 }
-
 
 
 .contact-us {
@@ -743,7 +743,6 @@ height: 350.49px;
 .social-media a:hover {
     color: #72cd8d;
 }
-
 
 footer {
     position: absolute;  
@@ -1177,7 +1176,7 @@ color: #92E3A9;
      
        }
 
-       .case-study { 
+    .case-study { 
         text-align: center;
         margin-bottom: 20px;
        }
@@ -1404,6 +1403,7 @@ color: #92E3A9;
         margin-top: 0;
     }
 
+
     .case-title {
         font-size: 30px;
         font-weight: 700;
@@ -1548,7 +1548,6 @@ footer {
     color: white;
 
 }
-
 
 .hero h1 {
     margin-top: 20px;
