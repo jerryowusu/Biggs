@@ -146,6 +146,21 @@ header.nav-list {
 }
 
 
+.table-books {
+    width: 385.26px;
+    height: 222px;
+}
+
+.code2 {
+    width: 278.89px;
+    height: 210.61px;
+}
+
+.settings2 {
+    width: 166.92px;
+    height: 160.7px;
+}
+
 .table-books, .code2, .settings2 {
     max-width: 60%;
     height: auto;
