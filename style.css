@@ -54,6 +54,7 @@ header.nav-list {
     margin: auto 0;
     width: 159px;
     align-items: center;
+    cursor: pointer;
     transition: transform 0.3s ease;
 }
 
@@ -483,6 +484,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     margin: 20px;
+    cursor: pointer;
 }
 
 .tab {
