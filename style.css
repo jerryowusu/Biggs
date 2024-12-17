@@ -31,7 +31,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 6.25rem;
     background-color: #fff;
     z-index: 1000; 
   }
@@ -39,7 +39,7 @@ header {
 
 
 .header {
-    max-width: 1200px;
+    max-width: 75rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,7 +52,7 @@ header.nav-list {
 
 .logo {
     margin: auto 0;
-    width: 159px;
+    width: 9.9375rem;
     align-items: center;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -64,13 +64,13 @@ header.nav-list {
     position: absolute;
     transform: translate(-50%, -15%);
     display: inline-block;
-    padding-top: 20px;
-    font-size: 20px;
+    padding-top: 1.25rem;
+    font-size: 1.25rem;
     color: #fff;
     background-color: #000;
-    width: 58px;
-    height: 58px;
-    border-radius: 58px;
+    width: 3.625rem;
+    height: 3.625rem;
+    border-radius: 3.625rem;
 }
 
 .mobile-menu {
@@ -92,7 +92,7 @@ header.nav-list {
 .dnav-item a {
     text-decoration: none;
     color: #000;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 300;
     transition: all 0.3s ease;
 
@@ -104,20 +104,20 @@ header.nav-list {
 .dnav-item a:hover {
      color: #28a745;
     background-color: #92E3A92B;
-    border-radius: 3px;
+    border-radius: 0.1875rem;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
-    max-width: 1400px;
+    max-width: 87.5rem;
     width: 100%;
     align-items: stretch;
     position: relative;
-    font-size: 15px;
-    border-radius: 33px;
-    margin-top: 100px;
+    font-size: 0.9375rem;
+    border-radius: 2.0625rem;
+    margin-top: 6.25rem;
     text-align: center;
     background-color: #72cd8d;
 }
@@ -125,7 +125,7 @@ header.nav-list {
 .top-images {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .mobile-top-images {
@@ -148,18 +148,18 @@ header.nav-list {
 
 
 .table-books {
-    width: 385.26px;
-    height: 222px;
+    width: 24.07875rem;
+    height: 13.875rem;
 }
 
 .code2 {
-    width: 278.89px;
-    height: 210.61px;
+    width: 17.430625rem;
+    height: 13.163125rem;
 }
 
 .settings2 {
-    width: 166.92px;
-    height: 160.7px;
+    width: 10.4325rem;
+    height: 10.04375rem;
 }
 
 .table-books, .code2, .settings2 {
@@ -175,13 +175,13 @@ header.nav-list {
 
 .motion-img {
     width: 50%;
-    height: 255px;
+    height: 15.9375rem;
     transition: transform 0.3s ease;
 }
 
 .settings1,  .copies {
-    max-height: 300px;
-    margin: 10px 5px; 
+    max-height: 18.75rem;
+    margin: 0.625rem 0.3125rem; 
     transition: transform 0.3s ease;
 }
 
@@ -212,18 +212,17 @@ a {
 }
 
 .btn {
-    width: 200px;
+    width: 12.5rem;
     height: auto;
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
     display: inline-block;
-    font-size: 21px;
+    font-size: 1.3125rem;
     font-weight: 400;
     text-align: center;
     justify-content: center;
     margin: auto;
     white-space: nowrap; 
     border-radius: 45px;
-    border: 1px;
     background: #92E3A9;
     border: 1px solid #000000;
 
@@ -232,7 +231,7 @@ a {
 .btn:hover {
     background-color: #72cd8d;
     transform: 0.3s ease-in;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.2);
 }
 
 .hero-btn {
@@ -243,7 +242,7 @@ a {
 
 .touch-btn {
     max-width: 30%;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
 }
 
 
@@ -261,13 +260,13 @@ img {
 }
 
 .main-header {
-    max-width: 954px;
-    max-height: 128px;
+    max-width: 59.625rem;
+    max-height: 8rem;
     margin: auto;
     font-family: diagram;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 400;
-    line-height: 64px;
+    line-height: 4rem;
     text-align: center;
 }
 
@@ -279,56 +278,54 @@ img {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    gap: 20px;
-    max-width: 1400px;
+    gap: 1.25rem;
+    max-width: 87.5rem;
     width: 100%;
-    padding: 40px 20px;
-    border-radius: 48px;
+    padding: 2.5rem 1.25rem;
+    border-radius: 3rem;
     background-color: #f3f2f2;
-    margin-top: 60px;
-    border-radius: 33px;
+    margin-top: 3.75rem;
+    border-radius: 2.0625rem;
 }
 
 h2 {
     color: #000;
     font-weight: 600;
-    font-size: 50px;
-    line-height: 60.51px;
+    font-size: 3.125rem;
+    line-height: 3.781875rem;
 }
 
 
 .services-card {
     display: flex;
     justify-content: space-between; 
-    gap: 20px;
-    margin-top: -30px;
-    margin-bottom: 15px;
+    gap: 1.25rem;
+    margin-top: -1.875rem;
+    margin-bottom: 0.9375rem;
 }
 
  .services p {
     font-family: Inter;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 1.5625rem;
     letter-spacing: 0.02em;
     text-align: left;
 }
 
 .service-card {
-    margin-top: 30px;
-    width: 417px;
-    padding: 20px;
-   max-width: 600px;
-    border-radius: 24px;
+    margin-top: 1.875rem;
+    width: 26.0625rem;
+    padding: 1.25rem;
+    max-width: 37.5rem;
+    border-radius: 1.5rem;
     opacity: 0px;
-    background-color: #fff;
-
-    
+    background-color: #fff;    
 }
 
 .service-card img {
-    width: 62.73px;
-    height: 55.63px;
+    width: 3.920625rem;
+    height: 3.476875rem;
    }
 
 .service-card:hover {
@@ -337,27 +334,27 @@ h2 {
 }
 
 .service-card h3 {
-        font-size: 25px;
-        font-weight: 700;
-        line-height: 30px;
+    font-size: 1.5625rem;
+    font-weight: 700;
+    line-height: 1.875rem;
         text-align: left;
 }
 
 .industries-subtitle {
-    font-size: 44px;
+    font-size: 2.75rem;
     font-weight: 600;
-    line-height: 53.25px;
+    line-height: 3.328125rem;
     text-align: center;
     color: #000;
 
 }
 
 .industries-title h2 {
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 300;
-    line-height: 31.47px;
+    line-height: 1.966875rem;
     text-align: center;
-    margin: 30px;
+    margin: 1.875rem;
 }
 
 .industries-title {
@@ -369,22 +366,22 @@ h2 {
 
 .industries {
     width: 80%;
-    margin: 20px auto;
-    gap: 20px;
+    margin: 1.25rem auto;
+    gap: 1.25rem;
 }
 
 
 .industries-card {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
-    gap: 20px;
+    margin-top: 5rem;
+    gap: 1.25rem;
 }
 
 .industry-card {
     position: relative;
-    width: 454px;
-    border-radius: 48px;
+    width: 28.375rem;
+    border-radius: 3rem;
     background-color: #92e3a9;    
 }
 
@@ -392,8 +389,8 @@ h2 {
 .industries-card h3 {
     color: #000;
     font-weight: 300;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 1.375rem;
+    line-height: 1.875rem;
 }
 
 .industry-card {
@@ -420,12 +417,12 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 40px;
+    gap: 2.5rem;
     position: relative;
 }
 
 .card-group1 {
-    transform: translateY(-80px); 
+    transform: translateY(-5rem); 
     z-index: 0; 
 }
 
@@ -451,36 +448,36 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     max-width: 100%;
-    margin: 20px auto;
+    margin: 1.25rem auto;
 }
 
 .touch-text {
         font-family: Inter;
-        font-size: 26px;
+        font-size: 1.625rem;
         font-weight: 300;
-        line-height: 31.47px;
+        line-height: 1.966875rem;
         text-align: center;
 
 }
 
 .about-us {
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .about-us h2 {
     text-align: center;
     font-weight: 600;
-    font-size: 50x;
-    line-height: 60.51px;
+    font-size: 3.125rem;
+    line-height: 3.781875rem;
     text-align: center;
 }
 
 .about-us p {
     font-family: Inter;
-    font-size: 21px;
+    font-size: 1.3125rem;
     font-weight: 300;
-    line-height: 37px;
+    line-height: 2.3125rem;
     letter-spacing: 0.05em;
     text-align: center;
 } 
@@ -488,7 +485,7 @@ h2 {
 .tabs {
     display: flex;
     justify-content: space-around;
-    margin: 20px;
+    margin: 1.25rem;
     cursor: pointer;
 }
 
@@ -497,20 +494,17 @@ h2 {
 }
 
 hr {
-
-    width: 589px;
+    width: 36.8125rem;
     height: 0px;
-    top: 3827px;
-    left: 236px;
+    top: 239.1875rem;
+    left: 14.75rem;
     gap: 0px;
     border: 2px 0px 0px 0px;
     opacity: 0px;
-
-
     width: 100%;
     padding: 0;
     border: 1px solid #ddd;
-    margin: 5px 0;
+    margin: 0.3125rem 0;
 }
 
 .active-tab {
@@ -522,57 +516,57 @@ hr {
 }
 
 .e-tab-container {
-    border-radius: 48px;
+    border-radius: 3rem;
     opacity: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     display: flex;
     flex-direction: row;
     background-color: #92e3a9;
-    border-radius: 48px;
-    padding: 40px 20px 40px 20px;
+    border-radius: 3rem;
+    padding: 2.5rem 1.25rem 2.5rem 1.25rem;
 }
 
 .education-tab-container {
-    border-radius: 48px;
+    border-radius: 3rem;
     opacity: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     display: flex;
     flex-direction: column;
     background-color: #92e3a9;
-    border-radius: 48px;
-    padding: 40px 20px 40px 20px;
+    border-radius: 3rem;
+    padding: 2.5rem 1.25rem 2.5rem 1.25rem;
 }
 
 .case-title {
     font-weight: 700;
-    font-size: 36px;
-    line-height: 43.57px;
+    font-size: 2.25rem;
+    line-height: 2.72rem;
 }
 
 .case-text {
     font-weight: 300;
-    font-size: 21px;
+    font-size: 1.3125rem;
     color: #000;
-    line-height: 39px;
-    letter-spacing: 2%;
+    line-height: 2.4375rem;
+    letter-spacing: 0.02em;
 }
 
 .e-service-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 1.875rem;
     width: 60%;
 }
 
 .e-services-img {
-    width: 410.02px;
-height: 350.49px;
+    width: 25.625rem;
+    height: 21.9056rem;
 }
 
 .education-img {
-    width: 401.29px;
-    height: 350.36px;
+    width: 25.0706rem;
+    height: 21.8985rem;
 }
 
 .education-case-left {
@@ -586,9 +580,9 @@ height: 350.49px;
 }
 
 .case-paragraph {
-    font-size: 21px;
+    font-size: 1.3125rem;
     font-weight: 300;
-    line-height: 46px;
+    line-height: 2.875rem;
     letter-spacing: 0.05em;
     text-align: left;
 }
@@ -596,12 +590,12 @@ height: 350.49px;
 
 .contact-form input,
 .contact-form textarea {
-    padding: 12px;
-    margin-bottom: 15px;
+    padding: 0.75rem;
+    margin-bottom: 0.9375rem;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 100%;
-    height: 60px;
+    height: 3.75rem;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -622,11 +616,11 @@ height: 350.49px;
     color: #000;
     border: none;
     width: 100%;
-    height: 60px;
+    height: 3.75rem;
     font-weight: 400;
-    border-radius: 24px;
-    padding: 12px 20px;
-    font-size: 15px;
+    border-radius: 1.5rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.9375rem;
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
@@ -637,7 +631,7 @@ height: 350.49px;
 .submit:hover {
     background-color: #72cd8d;
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.2);
 }
 
 .submit::before {
@@ -672,18 +666,18 @@ height: 350.49px;
     justify-content: space-between;
     align-items: stretch;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom:  1.875rem;
 }
 
 .contact-left {
    flex: 1.3;
-   margin-right: 20px;
+   margin-right: 1.25rem;
 }
 
 .contact-right {
    flex: 1;
-   padding: 20px;
-   border-radius: 10px;
+   padding: 1.25rem;
+   border-radius: 0.625rem;
    display: flex;
    flex-direction: column; 
    margin-top: 8%;
@@ -695,9 +689,9 @@ height: 350.49px;
 
 
 .contact-p {
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400;
-    line-height: 18.15px;
+    line-height: 1.134rem;
     text-align: left;
     color: #000;
 }
@@ -707,24 +701,24 @@ height: 350.49px;
     display: flex;
     flex-direction: column;
     height: 100%;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 1.6875rem;
     text-align: left;
 }
 
 .corporate-text {
     font-family: Inter;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 1.6875rem;
     text-align: left;
 }
 
 .corporate-office h4 {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
-    line-height: 16.94px;
+    line-height: 1.059rem;
     text-align: left;
 }
 
@@ -734,7 +728,7 @@ height: 350.49px;
 
 .social-media a {
     margin-top: auto;
-    margin-right: 10px;
+    margin-right: 0.625rem;
     color: #333;
     padding: 0;
     transition: color 0.3s ease;
@@ -751,20 +745,14 @@ footer {
 }
 
 .rights-reserved {
-font-size: 13px;
-font-weight: 300;
-line-height: 27px;
-letter-spacing: 0.03em;
-text-align: left;
-
-font-size: 13px;
-font-weight: 300;
-line-height: 27px;
-letter-spacing: 0.03em;
-text-align: left;
-
-color: #92E3A9;
+    font-size: 0.8125rem;
+    font-weight: 300;
+    line-height: 1.6875rem;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #92E3A9;
 }
+
 
 .terms {
     font-size: 13px;
@@ -777,7 +765,7 @@ color: #92E3A9;
 }
 
 .footer-in {
-    max-width: 1200px;
+    max-width: 75rem;
     display: flex;
     justify-content: space-around;
     margin: auto;
@@ -803,7 +791,7 @@ color: #92E3A9;
 
 @media (max-width: 1204px) {
     h1 {
-     font-size: 48px;  
+        font-size: 3rem;
     }
 
     .top-left {
@@ -829,7 +817,7 @@ color: #92E3A9;
    }
 
    .btn {
-    border-radius: 45px;
+    border-radius: 2.8125rem;
     border: 1px 0px 0px 0px;
     opacity: 0px;
     border: 1px solid #000000
@@ -837,17 +825,17 @@ color: #92E3A9;
    }
 
    .industry-card {
-    width: 350px;
+    width: 21.875rem;
    }
 
    .main-header {
-    font-size: 52px;
+    font-size: 3.25rem;
    }
  }
 
 @media (max-width: 1024px) {
    h1 {
-    font-size: 42px; 
+    font-size: 2.625rem;
    }
 
    .footer-in {
@@ -864,7 +852,7 @@ color: #92E3A9;
 
 @media (max-width: 950px) {
     h1 {
-     font-size: 38px;  
+        font-size: 2.375rem;
     }
 
     .e-services-img, .education-img {
@@ -880,12 +868,12 @@ color: #92E3A9;
 @media (max-width: 768px) {
       
     header {
-        max-width: 750px;
+        max-width: 46.875rem;
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
         padding: 0;
-        height: 70px;
+        height: 4.375rem;
     }
 
     .mobile-menu {
@@ -895,10 +883,10 @@ color: #92E3A9;
 
     
     .mobile-list {
-       list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: left;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: left;
     }
 
     .mobile-menu .nav-item {
@@ -913,67 +901,67 @@ color: #92E3A9;
     .mobile-header {
         display: block;
         font-family: Diagramm;
-        font-size: 37px;
+        font-size: 2.3125rem;
         font-weight: 400;
-        line-height: 41px;
+        line-height: 2.5625rem;
         text-align: center;   
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 600;
-        line-height: 48.41px;
+        line-height: 3.0256rem;
         text-align: left;
 
     }
 
     .mobile-p {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 35px;
-    letter-spacing: 0.02em;
-    text-align: left;
+        font-size: 0.9375rem;
+        font-weight: 400;
+        line-height: 2.1875rem;
+        letter-spacing: 0.02em;
+        text-align: left;
 
     }
 
     .services p {
-        font-size: 15px;
+        font-size: 0.9375rem;
         font-weight: 400;
-        line-height: 35px;
+        line-height: 2.1875rem;
         letter-spacing: 0.02em;
         text-align: left;
     }
 
     .services h3 {
         font-family: Inter;
-        font-size: 25px;
+        font-size: 1.5625rem;
         font-weight: 700;
-        line-height: 30px;
+        line-height: 1.875rem;
         text-align: left;
 
     }
 
     .about-us p {
-        font-size: 19px;
+        font-size: 1.1875rem;
         font-weight: 400;
-        line-height: 37px;
+        line-height: 2.3125rem;
         letter-spacing: 0.01em;
         text-align: center;
     }
 
     .case-paragraph {
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 46px;
-    letter-spacing: 0.03em;
-    text-align: left;
+        font-size: 1.1875rem;
+        font-weight: 400;
+        line-height: 2.875rem;
+        letter-spacing: 0.03em;
+        text-align: left;
     }
 
     .logo {
-        width: 134px;
-        height: 52px;
+        width: 8.375rem;
+        height: 3.25rem;
     }
-
+    
     nav ul {
         flex-direction: column;
     }
@@ -1011,11 +999,10 @@ color: #92E3A9;
 
     .btn {
         max-width: 100%;
-        width: 248px;
-        height: 67px;
-        margin-top: 30px;
-        
-        border-radius: 45px;
+        width: 15.5rem;
+        height: 4.1875rem;
+        margin-top: 1.875rem;
+        border-radius: 2.8125rem;
         border: 1px;
         border: 1px solid #000000
     }
@@ -1025,7 +1012,7 @@ color: #92E3A9;
         background-color: #199b40;
         transform: translateY(-3px); 
         transition: all 0.3s ease-in-out;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+        box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.2); 
     }
 
     .close-btn {        
@@ -1037,8 +1024,8 @@ color: #92E3A9;
         border: 2px solid #000;
         font-size: 1.5rem;
         cursor: pointer;
-        width: 50px;
-        height: 50px;
+        width: 3.125rem;
+        height: 3.125rem;
         border-radius: 50px;
         transition: color 0.3s;
     }
@@ -1060,16 +1047,16 @@ color: #92E3A9;
         position: absolute;
         left: 10%;
         top: 10%;
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
 
     .mobile-list .nav-item a {
         font-family: Inter;
-        font-size: 15px;
+        font-size: 0.9375rem;
         font-weight: 300;
-        line-height: 18.15px;
+        line-height: 1.133rem;
         text-align: left;
-        padding: 20px;
+        padding: 1.25rem;
         
 
     }
@@ -1078,7 +1065,7 @@ color: #92E3A9;
         color: #70bb84;
         background: #92E3A92B;
         padding: 0.5rem 1.2rem;
-        border-radius: 3px;
+        border-radius: 0.1875rem;
         transform: scale(1.05);
     }
     
@@ -1104,14 +1091,14 @@ color: #92E3A9;
     }
 
     .settings2 {
-       max-width: 20%;
+        max-width: 20%;
     }
 
     .down-images {
         position: absolute;
         bottom: 0;
         display: flex;
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
         justify-content: space-between;
         transform: translate(0%, 10%);
     }    
@@ -1151,17 +1138,17 @@ color: #92E3A9;
 
     .nav-list {
         flex-direction: row;
-        padding: 10px;
+        padding: 0.625rem;
     }
 
     .nav-item {
-        padding: 10px 20px;
+        padding: 0.625rem 1.25rem;
     }
 
     .menu-toggle {
         display: block;
-        width: 40px;
-        height: 25px;
+        width: 2.5rem;
+        height: 1.5625rem;
         border: none;
         font-weight: bold;
         background-color: transparent;
@@ -1178,7 +1165,7 @@ color: #92E3A9;
 
     .case-study { 
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
        }
 
        .contact-p {
@@ -1203,9 +1190,9 @@ color: #92E3A9;
     }
     
     .hero {
-        height: 750px;
+        height: 46.875rem;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 3.125rem;
     }
 
     .services-card {
@@ -1213,14 +1200,14 @@ color: #92E3A9;
         margin: auto;
         align-items: center;
         justify-content: center;
-        gap: 1px;
+        gap: 0.0625rem;
     }
 
     .service-card {
         width: 100%;
-        gap: 30px;
-        height: 215px;
-        border-radius: 24px;
+        gap: 1.875rem;
+        height: 13.4375rem;
+        border-radius: 1.5rem;
     }
 
     .service-card h3 {
@@ -1238,12 +1225,10 @@ color: #92E3A9;
     }
 
     .services-card div { 
-        min-width: 300px;
-        height: 215px;
-        
-        border-radius: 24px;
-        opacity: 0px;
-  
+        min-width: 18.75rem;
+        height: 13.4375rem;
+        border-radius: 1.5rem;
+        opacity: 0px;  
         transition: transform 0.3s, box-shadow 0.3s;
     }
 
@@ -1260,39 +1245,39 @@ color: #92E3A9;
     .e-tab-container {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 0.625rem;
         align-items: center;
-        margin: 20 -20px;
-        margin: 0 -20px;
-        border-radius: 30px;
+        margin: 1.25rem -1.25rem;
+        margin: 0 -1.25rem;
+        border-radius: 1.875rem;
     }  
 
     .case-study {
-        margin: 10px -30px;
+        margin: 0.625rem -1.875rem;
     }
     
     .education-tab-container {
-        margin: 20 -20px;
-        border-radius: 30px;
+        margin: 1.25rem -1.25rem;
+        border-radius: 1.875rem;
     }
     
     .touch-card {
         display: flex;
         flex-direction: column;
         max-width: 100%;
-        gap: 20px;
+        gap:  1.25rem;
         text-align: center;
         align-items: center;
-        margin-top: -10px;
+        margin-top: -0.625rem;
     }
 
     .touch-text {
-        width: 242px;
-        height: 60px;
-        margin-bottom: 20px;       
-        font-size: 21px;
+        width: 15.125rem;
+        height: 3.75rem;
+        margin-bottom: 1.25rem;
+        font-size: 1.3125rem;
         font-weight: 400;
-        line-height: 25.41px;
+        line-height: 1.588rem;
         text-align: center;
 
     }
@@ -1306,15 +1291,15 @@ color: #92E3A9;
     }
 
     .corporate-office h4 {
-        font-size: 38px;
+        font-size: 2.375rem;
         font-weight: 700;
-        line-height: 45.99px;
+        line-height: 2.874rem;
         text-align: left;
     }
 
     .contact-right {
         padding: 0;
-        margin-top: -30px;
+        margin-top: -1.875rem;
     }
 
     .social-media {
@@ -1326,7 +1311,7 @@ color: #92E3A9;
         justify-content: center;
         margin: auto;
         width: 80%;
-        height: 42px;     
+        height: 2.625rem;
     }
 
     .contact-left {
@@ -1334,14 +1319,13 @@ color: #92E3A9;
         flex-direction: column;
         align-items: start;
         width: 100%;
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 
     .contact-form {
         display: block;
-
         align-items: center;
-        margin-top: 10px;
+        margin-top: 0.625rem;
     }
 
     .mobile-social-media i {
@@ -1352,7 +1336,7 @@ color: #92E3A9;
 
 
     .card-group2 {
-        margin-top: 60px;
+        margin-top: 3.75rem;
     }
 
     .card-group1 {
@@ -1369,28 +1353,27 @@ color: #92E3A9;
 
     
     .industries-subtitle {
-        font-size: 25px;
+        font-size: 1.5625rem;
         font-weight: 600;
-        line-height: 34px;
+        line-height: 2.125rem;
         text-align: center;
 
     }
 
     .industries-title h2 {
-        font-size: 22px;
+        font-size: 1.375rem;
         font-weight: 300;
-        line-height: 26.63px;
+        line-height: 1.664rem;
         text-align: center;
-
     }
 
     .industry-card {
         position: relative;
         max-width: 100%;
-        height: 270px;
+        height: 16.875rem;
         bottom: 0;
-        gap: 30px;
-        border-radius: 21px;
+        gap: 1.875rem;
+        border-radius: 1.3125rem;
     }
 
     .industry-card img {
@@ -1405,32 +1388,32 @@ color: #92E3A9;
 
 
     .case-title {
-        font-size: 30px;
+        font-size: 1.875rem;
         font-weight: 700;
-        line-height: 36.31px;
+        line-height: 2.269rem;
         text-align: left;
     }
 
     .case-text {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 400;
-        line-height: 39px;
+        line-height: 2.438rem;
         letter-spacing: 0.02em;
         text-align: left;        
     }
 
     .case-study h2 {
         text-align: center;
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 600;
-        line-height: 48.41px;
+        line-height: 3.025rem;
     }
 
     .e-service-tab h4, .education-tab h4 {
         font-family: Inter;
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 600;
-        line-height: 29.05px;
+        line-height: 1.814rem;
         text-align: left;
 
     }
@@ -1438,7 +1421,7 @@ color: #92E3A9;
     .case-subtitle {
         font-size: 1.5rem;
         color: #666;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
         text-align: start;
     }
 
@@ -1447,23 +1430,22 @@ color: #92E3A9;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
         background-color: #72cd8d;
-        padding: 20px;
-        border-radius: 10px;
+        padding: 1.25rem;
+        border-radius: 0.625rem;
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .e-service-left {
         width: 100%;
-        padding: 20px;
+        padding: 1.25rem;
     }
     
     .e-services-img, education-img {
-        max-width: 350px;
-        height: 300px;
+        max-width: 21.875rem;
+        height: 18.75rem;
     }
 
 .card-group2 {
@@ -1481,7 +1463,7 @@ color: #92E3A9;
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 400;
 }
 
@@ -1492,9 +1474,9 @@ color: #92E3A9;
 }
 
 .corporate-text {
-    font-size: 21px;
+    font-size: 1.3125rem;
     font-weight: 400;
-    line-height: 42px;
+    line-height: 2.625rem;
     text-align: left;
 }
 
@@ -1507,11 +1489,11 @@ br {
 }
 
 .submit {
-    border-radius: 17px;
+    border-radius: 1.0625rem;
     font-family: Inter;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 600;
-    line-height: 26.63px;
+    line-height: 1.664rem;
     text-align: center;
 }
 
@@ -1524,7 +1506,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin: auto;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .footer-in {
@@ -1544,15 +1526,15 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 0.625rem 0;
     color: white;
 
 }
 
 .hero h1 {
-    margin-top: 20px;
-    font-size: 52px;
-    line-height: 56px;
+    margin-top: 1.25rem;
+    font-size: 3.25rem;
+    line-height: 3.5rem;
 }
 
 
@@ -1577,49 +1559,50 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     width: 100%;
+}
 }
 }
 
 @media  (max-width: 992px) {
     .main-header {
-        font-size: 45px;
+        font-size: 2.8125rem;
     }
 
     h2 {
-        font-size: 42px;
+        font-size: 2.625rem;
     }
 
     .industries-subtitle {
-        font-size: 38px;
+        font-size: 2.375rem;
     }
 
     .service-card h3 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .industries-card h3 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .industry-card {
-        width: 320px;
+        width: 20rem;
     }
 
     .about-us p, .case-paragraph, .case-text {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     .touch-text {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 } 
 
 
 @media  (max-width: 650px) {
     .hero {
-        height: 690px;
+        height: 43.125rem;
     }
    
 }
@@ -1627,11 +1610,11 @@ footer {
 
 @media  (max-width: 580px) {
     .hero {
-        height: 650px;
+        height: 40.625rem;
     }
 
     .hero h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .copies {
@@ -1647,7 +1630,7 @@ footer {
 
 @media  (max-width: 500px) {
     .hero {
-        height: 630px;
+        height: 39.375rem;
     }
 
     .industries {
@@ -1655,7 +1638,7 @@ footer {
     }
 
     .industries-subtitle {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .contact-us {
@@ -1669,12 +1652,12 @@ footer {
 
 @media  (max-width: 420px) {
     .hero {
-        height: 550px;
+        height: 34.375rem;
     }
 
     .hero h1 {
-        font-size: 30px;
-        margin-bottom: 20px;
+        font-size: 1.875rem;
+        margin-bottom: 1.25rem;
     }
 
     .btn {
