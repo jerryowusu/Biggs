@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Diagramm";
+    src: url('/Diagramm-Regular.ttf') format('truetype');
+}
+
+
 html {
     scroll-behavior: smooth;
   }
@@ -6,13 +12,14 @@ html {
     margin: 0;
     padding: 0.625rem;
     box-sizing: border-box;
-    font-family: 'inter', sans-serif;
+    font-family: 'Diagramm', sans-serif;
 }
 
 /* Body styling */
 body {
     margin: auto;
     font-size: 1rem;
+    font-family: 'Diagramm', sans-serif;
     line-height: 1.6;
     background-color: #ffffff;
 }
