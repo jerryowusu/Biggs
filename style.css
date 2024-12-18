@@ -53,6 +53,8 @@ header {
     margin: 0 auto;
 }
 
+
+
 header.nav-list {
     align-items: right;
 }
@@ -78,6 +80,15 @@ header.nav-list {
     width: 3.625rem;
     height: 3.625rem;
     border-radius: 3.625rem;
+}
+
+.fa:hover {
+   width: 3.8rem;
+   height: 3.8rem;
+    color: black;
+    background-color: #199b40ec;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0.625rem 1.25rem rgba(38, 241, 38, 0.2); 
 }
 
 .mobile-menu {
@@ -542,6 +553,12 @@ hr {
     background-color: #92e3a9;
     border-radius: 3rem;
     padding: 2.5rem 1.25rem 2.5rem 1.25rem;
+}
+
+.e-service-tab:hover, .education-tab:hover {
+    color: #199b40;
+    transform: translateY(-4px); 
+    transition: all 0.3s ease-in-out;
 }
 
 .case-title {

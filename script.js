@@ -59,3 +59,24 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     })
 })
+
+
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault(); // Prevent default scroll behavior
+
+        const targetId = this.getAttribute('href').substring(1); 
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            const offset = 80; 
+            const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+            const offsetPosition = elementPosition - offset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
